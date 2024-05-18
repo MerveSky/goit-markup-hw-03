@@ -81,6 +81,9 @@ body{
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
 }
 .button:hover,
 .button:focus {
