@@ -119,6 +119,7 @@ body{
 }
 .our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team-header {
     font-size: 36px;
@@ -127,8 +128,13 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px
 }
-.section3-ul .list .subtitle {
+.sectionthree-ul{
+    display: flex;
+    gap: 24px;
+}
+.sectionthree-ul .list .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -136,7 +142,7 @@ body{
     color: #2e2f42;
 }
 
-.section3-ul .list .text {
+.sectionthree-ul .list .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
