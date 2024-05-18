@@ -140,6 +140,8 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .sectionthree-ul .list .text {
@@ -148,8 +150,11 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section3-ul .list {
+.sectionthree-ul .list {
     background-color: #FFFFFF;
+}
+.firstworker{
+    padding: 32px 0;
 }
 .portfolio-header {
     font-size: 36px;
