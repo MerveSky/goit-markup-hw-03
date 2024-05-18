@@ -98,6 +98,8 @@ body{
 .sectiontwo-ul{
     display: flex;
     gap: 24px;
+}
+.sectiontwo-ul .list {
     width: calc((100% - 72px) / 4);
 }
 .sectiontwo-ul .list .subtitle {
