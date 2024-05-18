@@ -92,6 +92,9 @@ body{
     background-color: #404BBF;
     color: #ffffff;
 }
+.section2 {
+    padding: 120px 0;
+}
 .section2-ul .list .subtitle {
     font-weight: 500;
     font-size: 20px;
