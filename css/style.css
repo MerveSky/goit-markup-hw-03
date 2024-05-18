@@ -92,13 +92,15 @@ body{
     background-color: #404BBF;
     color: #ffffff;
 }
-.section2 {
+.sectiontwo {
     padding: 120px 0;
 }
-.section2-ul{
+.sectiontwo-ul{
     display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
-.section2-ul .list .subtitle {
+.sectiontwo-ul .list .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -106,7 +108,7 @@ body{
     color: #2e2f42;
 }
 
-.section2-ul .list .text {
+.sectiontwo-ul .list .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
