@@ -9,7 +9,8 @@ body{
 }
 .home-navbar {
     background-color: #FFFFFF;
-
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -161,4 +162,9 @@ body{
 }
 .header-container{
     border-bottom: 1px solid #e7e9fc
+}
+.header-section {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px
 }
