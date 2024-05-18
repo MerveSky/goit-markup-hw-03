@@ -44,14 +44,17 @@ body{
 }
 .address {
     font-style: normal;
+}
+.address-ul{
     display: flex;
+    gap: 40px;
 }
 .address-ul .list .etiket {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    gap: 40px
+    
 }
 .address-ul .list .etiket:hover,
 .address-ul .list .etiket:focus {
