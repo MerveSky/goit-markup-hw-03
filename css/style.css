@@ -161,11 +161,12 @@ body{
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-.header-container{
+.header-section {
     border-bottom: 1px solid #e7e9fc
 }
-.header-section {
+.header-container {
     display: flex;
     width: 1158px;
-    padding: 0 15px
+    padding: 0 15px;
+    margin: 0 auto;
 }
