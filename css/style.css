@@ -159,3 +159,6 @@ body{
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+.header-container{
+    border-bottom: 1px solid #e7e9fc
+}
