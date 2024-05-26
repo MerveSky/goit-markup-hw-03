@@ -147,6 +147,12 @@ body{
     background-color: white;
     justify-content: center;
     list-style-type: none;
+    padding: 32px 0;
+    text-align: center;
+}
+
+.team-card h3{
+    margin-bottom: 8px,
 }
 .sectionthree-ul .list .subtitle {
     font-weight: 500;
