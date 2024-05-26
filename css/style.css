@@ -101,10 +101,7 @@ body{
     padding: 120px 0;
 }
 
- .visually-hidden{
-    overflow: hidden;
-    display: none;
- }
+
 .sectiontwo-ul{
     display: flex;
     gap: 24px;
@@ -143,6 +140,13 @@ body{
 .sectionthree-ul{
     display: flex;
     gap: 24px;
+}
+.team-card{
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    background-color: white;
+    justify-content: center;
+    list-style-type: none;
 }
 .sectionthree-ul .list .subtitle {
     font-weight: 500;
