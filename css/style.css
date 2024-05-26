@@ -180,15 +180,6 @@ body{
     color: #434455;
 }
 
-.header-section {
-    border-bottom: 1px solid #e7e9fc
-}
-.header-container {
-    display: flex;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -223,4 +214,14 @@ body{
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+}
+.header-section {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.header-container {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
