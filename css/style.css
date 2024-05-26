@@ -1,3 +1,8 @@
+
+img {
+    display: block;
+    width: 100%;
+}
 body{
     font-family: 'Roboto', sans-serif;
         color: #434455;
@@ -157,6 +162,14 @@ body{
 .container {
     padding: 32px 0;
 }
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-header {
+    margin-bottom: 72px;
+}
 .portfolio-header {
     font-size: 36px;
     line-height: 1.11;
@@ -179,13 +192,16 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-.portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+.port-ul .list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
-.portfolio-header {
-    margin-bottom: 72px;
+.app-card {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .footer {
     background-color: #2e2f42;
